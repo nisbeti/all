@@ -72,6 +72,19 @@
     gap: 20px;
     padding-bottom: 64px;
   }
+  .section-head {
+    display: flex; align-items: baseline; gap: 14px; flex-wrap: wrap;
+    border-top: 1px solid var(--line);
+    padding-top: 40px; margin-bottom: 24px;
+  }
+  .section-head h2 { font-size: 32px; }
+  .section-head .ar { font-size: 26px; color: var(--accent); }
+  .section-head a {
+    margin-left: auto; font-size: 14px; color: var(--accent);
+    text-decoration: none; font-weight: 500;
+  }
+  .section-head a:hover { text-decoration: underline; }
+
   .site {
     position: relative;
     display: flex;
@@ -210,6 +223,28 @@
     </div>
   </article>
 </main>
+
+<section class="wrap" aria-labelledby="tafsirTitle">
+  <div class="section-head">
+    <h2 id="tafsirTitle">Tafsir</h2>
+    <p class="ar" lang="ar">التفسير</p>
+    <a href="https://nisbeti.github.io/tafsir/">Browse the library →</a>
+  </div>
+  <div class="grid">
+    <article class="site">
+      <div class="top">
+        <div class="tile" aria-hidden="true">الفاتحة</div>
+        <div class="names"><p class="ar" lang="ar">تفسير سورة الفاتحة</p><h2>Tafsīr al-Fātiḥah</h2></div>
+      </div>
+      <p class="kind">Tafsir</p>
+      <p class="desc">A commentary on Sūrat al-Fātiḥah. Read the book in Arabic or English in a clean, chaptered reader.</p>
+      <div class="links">
+        <a class="visit" href="https://nisbeti.github.io/tafsir/fatihah/">Visit site →</a>
+        <a class="src" href="https://github.com/nisbeti/tafsir">Source</a>
+      </div>
+    </article>
+  </div>
+</section>
 
 <footer class="wrap">
   Built with care · <a href="https://github.com/nisbeti">github.com/nisbeti</a>
