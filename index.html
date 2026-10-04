@@ -137,6 +137,13 @@
   .links a.src { position: relative; z-index: 1; margin-left: auto; }
   a:focus-visible { outline: 2px solid var(--accent); outline-offset: 3px; border-radius: 4px; }
 
+  .site.soon {
+    border-style: dashed; box-shadow: none; background: transparent;
+  }
+  .site.soon:hover { transform: none; border-color: var(--line); }
+  .site.soon .tile { background: transparent; color: var(--accent); border: 1px dashed var(--accent); }
+  .soon-note { color: var(--muted); font-size: 14px; font-style: italic; }
+
   footer {
     border-top: 1px solid var(--line);
     padding: 28px 0 40px;
@@ -242,6 +249,46 @@
         <a class="visit" href="https://nisbeti.github.io/tafsir/fatihah/">Visit site →</a>
         <a class="src" href="https://github.com/nisbeti/tafsir">Source</a>
       </div>
+    </article>
+  </div>
+</section>
+
+<section class="wrap" aria-labelledby="usulTitle">
+  <div class="section-head">
+    <h2 id="usulTitle">Usul</h2>
+    <p class="ar" lang="ar">أصول الفقه</p>
+    <a href="https://nisbeti.github.io/usul/">Browse the library →</a>
+  </div>
+  <div class="grid">
+    <article class="site">
+      <div class="top">
+        <div class="tile" aria-hidden="true">أقليات</div>
+        <div class="names"><p class="ar" lang="ar">نقض فقه الأقليات</p><h2>Refuting Minority Fiqh</h2></div>
+      </div>
+      <p class="kind">Usul al-Fiqh</p>
+      <p class="desc">A refutation of “minority jurisprudence” and its dangers to Muslim minorities. Read the book in Arabic or English.</p>
+      <div class="links">
+        <a class="visit" href="https://nisbeti.github.io/usul/minorities/">Visit site →</a>
+        <a class="src" href="https://github.com/nisbeti/usul">Source</a>
+      </div>
+    </article>
+  </div>
+</section>
+
+<section class="wrap" aria-labelledby="aqeedahTitle">
+  <div class="section-head">
+    <h2 id="aqeedahTitle">Aqeedah</h2>
+    <p class="ar" lang="ar">العقيدة</p>
+  </div>
+  <div class="grid">
+    <article class="site soon">
+      <div class="top">
+        <div class="tile" aria-hidden="true">عقيدة</div>
+        <div class="names"><p class="ar" lang="ar">قريبًا</p><h2>Coming soon</h2></div>
+      </div>
+      <p class="kind">Aqeedah</p>
+      <p class="desc">Books on Islamic belief, to read in Arabic and English, are on their way.</p>
+      <p class="soon-note">In preparation</p>
     </article>
   </div>
 </section>
