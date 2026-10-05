@@ -88,11 +88,13 @@
   }
   .section-head h2 { font-size: 32px; }
   .section-head .ar { font-size: 26px; color: var(--accent); }
-  .section-head a {
+  .section-head > a {
     margin-inline-start: auto; font-size: 14px; color: var(--accent);
     text-decoration: none; font-weight: 500;
   }
-  .section-head a:hover { text-decoration: underline; }
+  .section-head > a:hover { text-decoration: underline; }
+  .section-head h2 a { color: inherit; text-decoration: none; }
+  .section-head h2 a:hover { color: var(--accent); text-decoration: underline; text-decoration-thickness: 1px; text-underline-offset: 4px; }
 
   .site {
     position: relative;
@@ -260,7 +262,7 @@
 
 <section class="wrap" aria-labelledby="tafsirTitle">
   <div class="section-head">
-    <h2 id="tafsirTitle" data-ar="التفسير">Tafsir</h2>
+    <h2 id="tafsirTitle"><a href="https://nisbeti.github.io/tafsir/" data-ar="التفسير">Tafsir</a></h2>
     <p class="ar" lang="ar">التفسير</p>
     <a href="https://nisbeti.github.io/tafsir/" data-ar="تصفّح المكتبة ←">Browse the library →</a>
   </div>
@@ -282,7 +284,7 @@
 
 <section class="wrap" aria-labelledby="usulTitle">
   <div class="section-head">
-    <h2 id="usulTitle" data-ar="أصول الفقه">Usul</h2>
+    <h2 id="usulTitle"><a href="https://nisbeti.github.io/usul/" data-ar="أصول الفقه">Usul</a></h2>
     <p class="ar" lang="ar">أصول الفقه</p>
     <a href="https://nisbeti.github.io/usul/" data-ar="تصفّح المكتبة ←">Browse the library →</a>
   </div>
@@ -317,8 +319,9 @@
 
 <section class="wrap" aria-labelledby="aqeedahTitle">
   <div class="section-head">
-    <h2 id="aqeedahTitle" data-ar="العقيدة">Aqeedah</h2>
+    <h2 id="aqeedahTitle"><a href="https://nisbeti.github.io/aqeedah/" data-ar="العقيدة">Aqeedah</a></h2>
     <p class="ar" lang="ar">العقيدة</p>
+    <a href="https://nisbeti.github.io/aqeedah/" data-ar="تصفّح المكتبة ←">Browse the library →</a>
   </div>
   <div class="grid">
     <article class="site soon">
