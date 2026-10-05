@@ -1,5 +1,5 @@
 # all
 
-A one-page brochure of recent sites: Kahf, Mulk, Yā-Sīn, Adhkar, Fātiḥah and Maqāṣid.
+A one-page brochure of recent sites.
 
-Open `index.html`, or enable GitHub Pages on this repo to serve it.
+Open `index.html` on this repo to serve it.
